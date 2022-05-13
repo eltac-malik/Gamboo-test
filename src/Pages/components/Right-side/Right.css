@@ -1,0 +1,304 @@
+.right
+{
+    width: 420px;
+    height: 100vh;
+    border-left: 1px solid silver;
+    margin: 0px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.today
+{
+    width: 100%;
+    height: 40px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #dad6d6;
+}
+.fa-border-all
+{
+    margin-right: 5px;
+}
+
+.invite
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 25px;
+    width: 100%;
+}
+.invite-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.invite-content p
+{
+    color: #f1486e;
+}
+
+.invite-btn
+{
+    color: #00a6eb;
+    font-weight: bold;
+    cursor: pointer;
+}
+.invite-btn i
+{
+    padding-right: 5px;
+}
+.call
+{
+    margin-top: 10px;
+    width: 90%;
+    height: 60px;
+    background-color: rgb(70, 204, 128);
+    border-radius: 10px;
+    color: white;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.persons
+{
+    display: flex;
+    height: 100%;
+    width: 120px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.person
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    margin-left: -15px;
+}
+
+.person:first-child
+{
+    margin: 0px;
+}
+.person img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.call-icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.call-icon i
+{
+    padding: 0 5px;
+}
+
+.vertical
+{
+    width: 85%;
+    height: 1px;
+    background-color: rgba(192, 192, 192, 0.788);
+    margin-top: 20px;
+}
+.design
+{
+    width: 100%;
+    padding: 0 30px;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.design i
+{
+    padding: 5px 5px 0 10px;
+    color: #bbb8b8;
+}
+.p-el
+{
+    color: #c0bcbc;
+}
+
+.info-data
+{
+    padding-top: 50px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.members
+{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 9px;
+}
+.member
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: -10px;
+    overflow: hidden;
+    border: 1px solid silver;
+}
+.member img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.member:nth-child(2)
+{
+    background-color: aliceblue;
+}
+.line
+{
+    margin-top: 60px;
+}
+
+.tasks
+{   
+    width: 90%;
+    padding-top: 20px;
+    display: flex;
+    padding: 0 30px;
+    padding-left: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top:20px 
+}
+.tasks h3
+{
+    padding:0px
+}
+
+.tasks input
+{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(224, 220, 220, 0.849);
+    margin-top: 20px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.m-t
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 35px;
+}
+
+.colobs
+{
+    display: flex;
+    width: 100%;
+    padding: 0 35px;
+}
+
+.tasked
+{
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #f1486e;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.tasked-i
+{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #f1486e;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.log-out
+{
+    width: 100%;
+    height: 20px;
+    margin-top: 80px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.log-out p
+{
+    padding: 10px;
+    background-color: #f1486e;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.logout
+{
+    margin-right: 10px;
+}
+.log-out p:hover
+{
+    background-color: white;
+    color: #f1486e;
+    border: 1px solid #f1486e;
+    transition: 0.3s;
+}
+
+@media(max-width:900px)
+{
+    .right
+    {
+        width: 100%;
+    }
+    .today
+    {
+        padding: 0 40px;
+    }
+}
